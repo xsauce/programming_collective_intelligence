@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 def tanimoto(v1, v2):
     '''
-    求交集和并集的比率, Tanimoto coefficient
+    求交集和并集的比率, Tanimoto coefficient，适用有无的情况
     '''
     c1, c2, shr = 0, 0, 0
     for i in range(len(v1)):
